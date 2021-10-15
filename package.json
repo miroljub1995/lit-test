@@ -1,0 +1,19 @@
+{
+  "name": "lit-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup index.js --format es --name 'myBundle' --file dist/bundle.js --config rollup.config.js --compact --watch",
+    "start": "serve -l 5000 dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "serve": "^12.0.1"
+  }
+}
